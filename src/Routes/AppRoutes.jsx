@@ -48,7 +48,7 @@ const router = createBrowserRouter([
         children: [
           {
             path: "/admin-dashboard",
-            Component: (
+            element: (
               <Suspense fallback={<Loading />}>
                 <AdminDashBoard />
               </Suspense>
