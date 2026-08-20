@@ -1,0 +1,45 @@
+.outer-container {
+  flex: 1;
+  border: 2px solid darkslategrey;
+  background-color: white;
+}
+.input-container {
+  padding: 0.25em;
+  width: 100%;
+  border: 2px solid lightslategray;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.task-input-box {
+  flex: 1;
+}
+.task-container {
+  padding: 0.25em;
+  flex-grow: 1;
+  overflow: auto;
+}
+.task {
+  border: 2px solid darkslategrey;
+  padding: 0.15em;
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* @media screen and (min-width: 600px) {
+  .outer-container {
+    width: 75vw;
+  }
+}
+@media screen and (min-width: 860px) {
+  .outer-container {
+    width: 65vw;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .outer-container {
+    width: 35vw;
+  }
+} */
